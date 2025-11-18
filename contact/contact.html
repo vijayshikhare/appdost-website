@@ -1,0 +1,197 @@
+<!-- File: contact/contact.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - AppDost Pvt. Ltd.</title>
+    <link rel="stylesheet" href="contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header sticky-header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="logo">
+                    <img src="https://res.cloudinary.com/dhled94be/image/upload/v1762145701/course_thumbnails/fc5f257dr6tzjntorhse.png" alt="AppDost Pvt. Ltd. Logo" class="logo__img">
+                    <div class="logo__text">
+                        <span class="logo__text-main">AppDost</span>
+                        <span class="logo__text-sub">Complete Solutions</span>
+                    </div>
+                </div>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li><a href="../index.html" class="nav__link">Home</a></li>
+                        <li><a href="../about/about.html" class="nav__link">About</a></li>
+                        <li><a href="../services/services.html" class="nav__link">Services</a></li>
+                        <li><a href="../portfolio/portfolio.html" class="nav__link">Portfolio</a></li>
+                        <li><a href="../careers/careers.html" class="nav__link">Careers</a></li>
+                        <li><a href="contact.html" class="nav__link active">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="cta-header">
+                    <a href="#contact-form" class="btn btn--primary">Get a Quote</a>
+                </div>
+                <button class="mobile-toggle" aria-label="Toggle menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section for Contact -->
+    <section class="hero hero--contact">
+        <div class="hero__bg"></div>
+        <div class="container">
+            <div class="hero__content animate-on-scroll">
+                <h1 class="hero__title">Let's Connect</h1>
+                <p class="hero__subtitle">Ready to discuss your project, partnership, or career opportunity? We're here to help bring your ideas to life.</p>
+                <div class="hero__ctas">
+                    <a href="#contact-form" class="btn btn--primary">Send Message</a>
+                    <a href="#contact-info" class="btn btn--secondary">Contact Details</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Form Section -->
+                <div class="form-section animate-on-scroll">
+                    <div class="section-header">
+                        <i class="fas fa-envelope-open-text fa-2x"></i>
+                        <h2>Send a Message</h2>
+                        <p>Fill out the form below, and we'll respond within 24 hours.</p>
+                    </div>
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Full Name" required minlength="2">
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                            <label for="email">Email Address</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Project Inquiry, Partnership, etc." required minlength="3">
+                            <label for="subject">Subject</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Tell us about your project or inquiry..." rows="6" required minlength="10"></textarea>
+                            <label for="message">Message</label>
+                        </div>
+                        <button type="submit" class="btn btn--primary full-width">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                    <div id="form-success" class="form-message success" style="display: none;">
+                        <i class="fas fa-check-circle"></i> Thank you! Your message has been sent. We'll get back to you soon.
+                    </div>
+                    <div id="form-error" class="form-message error" style="display: none;">
+                        <i class="fas fa-exclamation-triangle"></i> There was an error sending your message. Please try again.
+                    </div>
+                </div>
+
+                <!-- Info Section -->
+                <div id="contact-info" class="info-section animate-on-scroll" data-delay="0.1s">
+                    <div class="section-header">
+                        <i class="fas fa-phone-alt fa-2x"></i>
+                        <h2>Get in Touch</h2>
+                        <p>Reach out via email, phone, or our social channels for quick responses.</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p><a href="mailto:info@appdost.com">info@appdost.com</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-globe"></i>
+                        <h3>Website</h3>
+                        <p><a href="https://www.appdost.com" target="_blank">www.appdost.com</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Location</h3>
+                        <p>India (Remote-friendly for collaborations)</p>
+                    </div>
+                    <div class="social-section">
+                        <h3>Follow Us</h3>
+                        <div class="social-links">
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div id="map-placeholder" class="map-container">
+                        <i class="fas fa-map-marked-alt fa-3x"></i>
+                        Placeholder for Google Maps Embed
+                        <iframe src="https://maps.google.com/maps?q=Banka%2C+Bihar%2C+India&output=embed" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Banner -->
+    <section class="cta-banner">
+        <div class="container">
+            <div class="cta-banner__content animate-on-scroll">
+                <h2>Have an Idea? Let's Build It Together</h2>
+                <p>From startups to enterprises, we're ready to partner on your digital journey.</p>
+                <a href="#contact-form" class="btn btn--primary">Get Started</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <div class="logo">
+                        <img src="https://res.cloudinary.com/dhled94be/image/upload/v1762145701/course_thumbnails/fc5f257dr6tzjntorhse.png" alt="AppDost Pvt. Ltd. Logo" class="logo__img">
+                        <div class="logo__text">
+                            <span class="logo__text-main">AppDost</span>
+                            <span class="logo__text-sub">Complete Solutions</span>
+                        </div>
+                    </div>
+                    <p>Your Complete IT & Digital Solutions Partner</p>
+                </div>
+                <div class="footer__section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../about/about.html">About</a></li>
+                        <li><a href="../services/services.html">Services</a></li>
+                        <li><a href="../portfolio/portfolio.html">Portfolio</a></li>
+                        <li><a href="../careers/careers.html">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer__section">
+                    <h3>Contact Info</h3>
+                    <p>Email: <a href="mailto:info@appdost.com">info@appdost.com</a></p>
+                    <p>Website: <a href="https://www.appdost.com">www.appdost.com</a></p>
+                    <p>Location: India</p>
+                </div>
+                <div class="footer__section">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2025 AppDost Pvt. Ltd. | All Rights Reserved | Designed by AppDost Team</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="contact.js"></script>
+</body>
+</html>

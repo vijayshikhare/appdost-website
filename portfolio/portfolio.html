@@ -1,0 +1,216 @@
+<!-- File: portfolio/portfolio.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - AppDost Pvt. Ltd.</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header sticky-header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="logo">
+                    <img src="https://res.cloudinary.com/dhled94be/image/upload/v1762145701/course_thumbnails/fc5f257dr6tzjntorhse.png" alt="AppDost Pvt. Ltd. Logo" class="logo__img">
+                    <div class="logo__text">
+                        <span class="logo__text-main">AppDost</span>
+                        <span class="logo__text-sub">Complete Solutions</span>
+                    </div>
+                </div>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li><a href="../index.html" class="nav__link">Home</a></li>
+                        <li><a href="../about/about.html" class="nav__link">About</a></li>
+                        <li><a href="../services/services.html" class="nav__link">Services</a></li>
+                        <li><a href="portfolio.html" class="nav__link active">Portfolio</a></li>
+                        <li><a href="../careers/careers.html" class="nav__link">Careers</a></li>
+                        <li><a href="../contact/contact.html" class="nav__link">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="cta-header">
+                    <a href="../contact/contact.html" class="btn btn--primary">Get a Quote</a>
+                </div>
+                <button class="mobile-toggle" aria-label="Toggle menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section for Portfolio -->
+    <section class="hero hero--portfolio">
+        <div class="hero__bg"></div>
+        <div class="container">
+            <div class="hero__content animate-on-scroll">
+                <h1 class="hero__title">Our Portfolio</h1>
+                <p class="hero__subtitle">Innovative projects showcasing our expertise in web, mobile, and enterprise solutions.</p>
+                <div class="hero__ctas">
+                    <a href="#all" class="btn btn--primary">Browse Projects</a>
+                    <a href="../contact/contact.html" class="btn btn--secondary">Start Your Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Filters -->
+    <section class="portfolio-filters">
+        <div class="container">
+            <div class="filters">
+                <button class="filter-btn active" data-category="all"><i class="fas fa-th"></i> All</button>
+                <button class="filter-btn" data-category="web"><i class="fas fa-globe"></i> Web</button>
+                <button class="filter-btn" data-category="mobile"><i class="fas fa-mobile-alt"></i> Mobile</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid -->
+    <section class="portfolio-grid-full">
+        <div class="container">
+            <div class="portfolio-grid">
+                <!-- ApkeDoctorG - Mobile -->
+                <div class="project-card animate-on-scroll" id="apkedoctorg" data-category="mobile" data-delay="0.1s">
+                    <div class="project-card__thumb" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                        <i class="fas fa-stethoscope fa-3x" style="color: white;"></i>
+                    </div>
+                    <div class="project-card__content">
+                        <h3>ApkeDoctorG</h3>
+                        <p>Healthcare appointment booking app for doctors and patients, featuring seamless scheduling and patient management.</p>
+                        <div class="tech-tags">
+                            <span><i class="fas fa-leaf"></i> Spring Boot</span>
+                            <span><i class="fab fa-react"></i> React Native</span>
+                            <span><i class="fas fa-database"></i> PostgreSQL</span>
+                            <span><i class="fab fa-aws"></i> AWS</span>
+                        </div>
+                        <div class="project-cta">
+                            <a href="../contact/contact.html" class="btn btn--primary">Discuss Similar</a>
+                            <a href="#apkedoctorg" class="btn btn--outline">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- BEU Mate App - Mobile -->
+                <div class="project-card animate-on-scroll" id="beumate" data-category="mobile" data-delay="0.2s">
+                    <div class="project-card__thumb" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                        <i class="fas fa-users fa-3x" style="color: white;"></i>
+                    </div>
+                    <div class="project-card__content">
+                        <h3>BEU Mate App</h3>
+                        <p>Community app for BEU students and alumni with event and post management, fostering connections and updates.</p>
+                        <div class="tech-tags">
+                            <span><i class="fab fa-react"></i> React Native</span>
+                            <span><i class="fas fa-leaf"></i> Spring Boot</span>
+                            <span><i class="fas fa-database"></i> MySQL</span>
+                        </div>
+                        <div class="project-cta">
+                            <a href="../contact/contact.html" class="btn btn--primary">Discuss Similar</a>
+                            <a href="#beumate" class="btn btn--outline">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TheWeddingsChapter - Web -->
+                <div class="project-card animate-on-scroll" id="weddingschapter" data-category="web" data-delay="0.3s">
+                    <div class="project-card__thumb" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                        <i class="fas fa-ring fa-3x" style="color: white;"></i>
+                    </div>
+                    <div class="project-card__content">
+                        <h3>TheWeddingsChapter</h3>
+                        <p>Wedding management platform connecting vendors and customers, streamlining planning and bookings.</p>
+                        <div class="tech-tags">
+                            <span><i class="fab fa-angular"></i> Angular</span>
+                            <span><i class="fas fa-leaf"></i> Spring Boot</span>
+                            <span><i class="fab fa-aws"></i> AWS</span>
+                        </div>
+                        <div class="project-cta">
+                            <a href="../contact/contact.html" class="btn btn--primary">Discuss Similar</a>
+                            <a href="#weddingschapter" class="btn btn--outline">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- DevSkillQuest - Web -->
+                <div class="project-card animate-on-scroll" id="devskillquest" data-category="web" data-delay="0.4s">
+                    <div class="project-card__thumb" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);">
+                        <i class="fas fa-book-open fa-3x" style="color: white;"></i>
+                    </div>
+                    <div class="project-card__content">
+                        <h3>DevSkillQuest</h3>
+                        <p>EdTech platform for learning, internships, and technical assessments, empowering skill development.</p>
+                        <div class="tech-tags">
+                            <span><i class="fab fa-react"></i> React.js</span>
+                            <span><i class="fas fa-leaf"></i> Spring Boot</span>
+                            <span><i class="fas fa-database"></i> PostgreSQL</span>
+                        </div>
+                        <div class="project-cta">
+                            <a href="../contact/contact.html" class="btn btn--primary">Discuss Similar</a>
+                            <a href="#devskillquest" class="btn btn--outline">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Banner -->
+    <section class="cta-banner">
+        <div class="container">
+            <div class="cta-banner__content animate-on-scroll">
+                <h2>Ready to Bring Your Vision to Life?</h2>
+                <p>Our team is here to collaborate on your next big project.</p>
+                <a href="../contact/contact.html" class="btn btn--primary">Let's Talk</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <div class="logo">
+                        <img src="https://res.cloudinary.com/dhled94be/image/upload/v1762145701/course_thumbnails/fc5f257dr6tzjntorhse.png" alt="AppDost Pvt. Ltd. Logo" class="logo__img">
+                        <div class="logo__text">
+                            <span class="logo__text-main">AppDost</span>
+                            <span class="logo__text-sub">Complete Solutions</span>
+                        </div>
+                    </div>
+                    <p>Your Complete IT & Digital Solutions Partner</p>
+                </div>
+                <div class="footer__section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../about/about.html">About</a></li>
+                        <li><a href="../services/services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="../careers/careers.html">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer__section">
+                    <h3>Contact Info</h3>
+                    <p>Email: <a href="mailto:info@appdost.com">info@appdost.com</a></p>
+                    <p>Website: <a href="https://www.appdost.com">www.appdost.com</a></p>
+                    <p>Location: India</p>
+                </div>
+                <div class="footer__section">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2025 AppDost Pvt. Ltd. | All Rights Reserved | Designed by AppDost Team</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="portfolio.js"></script>
+</body>
+</html>

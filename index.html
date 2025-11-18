@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AppDost Pvt. Ltd. - Your Complete IT & Digital Solutions Partner</title>
+    <link rel="stylesheet" href="shared/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header sticky-header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="logo">
+                    <img src="https://res.cloudinary.com/dhled94be/image/upload/v1762145701/course_thumbnails/fc5f257dr6tzjntorhse.png" alt="AppDost Pvt. Ltd. Logo" class="logo__img">
+                    <div class="logo__text">
+                        <span class="logo__text-main">AppDost</span>
+                        <span class="logo__text-sub">Complete Solutions</span>
+                    </div>
+                </div>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li><a href="#home" class="nav__link active">Home</a></li>
+                        <li><a href="#about" class="nav__link">About</a></li>
+                        <li><a href="#services" class="nav__link">Services</a></li>
+                        <li><a href="#portfolio" class="nav__link">Portfolio</a></li>
+                        <li><a href="#careers" class="nav__link">Careers</a></li>
+                        <li><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="cta-header visible-all"> <!-- Added 'visible-all' class for CSS override -->
+                    <a href="contact/contact.html" class="btn btn--primary">Contact Us</a>
+                </div>
+                <button class="mobile-toggle" aria-label="Toggle menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+        <div class="hero__bg"></div>
+        <div class="container">
+            <div class="hero__content animate-on-scroll">
+                <h1 class="hero__title">Your Complete IT & Digital Solutions Partner</h1>
+                <p class="hero__subtitle">We build websites, apps, and digital platforms that grow your business.</p>
+                <div class="hero__ctas">
+                    <a href="#services" class="btn btn--primary">Get Started</a>
+                    <a href="#portfolio" class="btn btn--secondary">View Our Work</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Preview -->
+    <section class="about-preview" id="about">
+        <div class="container">
+            <div class="about-preview__content animate-on-scroll">
+                <h2 class="section-title">About AppDost Pvt. Ltd.</h2>
+                <p>AppDost Pvt. Ltd. is a next-generation IT services company specializing in software, web, and mobile app development. We help startups, enterprises, and entrepreneurs scale their businesses through technology, design, and innovation. Our mission is to simplify technology and make digital transformation affordable for every business. We believe in delivering high-quality, customer-centric, and performance-driven solutions that help brands grow faster.</p>
+                <a href="about/about.html" class="btn btn--outline">Explore More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Overview -->
+    <section class="services-overview" id="services">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card animate-on-scroll" data-delay="0.1s">
+                    <div class="service-card__icon"><i class="fas fa-globe"></i></div>
+                    <h3>Website Design & Development</h3>
+                    <p>SEO-optimized, responsive, and conversion-focused websites.</p>
+                    <a href="services/services.html#web" class="btn btn--explore">Explore</a>
+                </div>
+                <div class="service-card animate-on-scroll" data-delay="0.2s">
+                    <div class="service-card__icon"><i class="fas fa-mobile-alt"></i></div>
+                    <h3>Mobile App Development</h3>
+                    <p>Android, iOS & cross-platform apps using React Native & Flutter.</p>
+                    <a href="services/services.html#mobile" class="btn btn--explore">Explore</a>
+                </div>
+                <div class="service-card animate-on-scroll" data-delay="0.3s">
+                    <div class="service-card__icon"><i class="fas fa-cogs"></i></div>
+                    <h3>Software Development</h3>
+                    <p>Enterprise-level applications with Java, Spring Boot, and secure REST APIs.</p>
+                    <a href="services/services.html#software" class="btn btn--explore">Explore</a>
+                </div>
+                <div class="service-card animate-on-scroll" data-delay="0.4s">
+                    <div class="service-card__icon"><i class="fas fa-cloud"></i></div>
+                    <h3>Cloud & DevOps</h3>
+                    <p>AWS-based infrastructure, CI/CD pipelines, Dockerization, and monitoring.</p>
+                    <a href="services/services.html#cloud" class="btn btn--explore">Explore</a>
+                </div>
+                <div class="service-card animate-on-scroll" data-delay="0.5s">
+                    <div class="service-card__icon"><i class="fas fa-chart-line"></i></div>
+                    <h3>Digital Marketing</h3>
+                    <p>SEO, SMM, and brand visibility enhancement.</p>
+                    <a href="services/services.html#marketing" class="btn btn--explore">Explore</a>
+                </div>
+                <div class="service-card animate-on-scroll" data-delay="0.6s">
+                    <div class="service-card__icon"><i class="fas fa-graduation-cap"></i></div>
+                    <h3>Internship & Training</h3>
+                    <p>Industrial training in Java, Web, and Cloud technologies.</p>
+                    <a href="services/services.html#training" class="btn btn--explore">Explore</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technologies -->
+    <section class="technologies">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Technologies We Work On</h2>
+            <div class="tech-grid">
+                <span class="tech-logo animate-on-scroll" data-delay="0.1s"><i class="fab fa-java"></i> Java</span>
+                <span class="tech-logo animate-on-scroll" data-delay="0.2s"><i class="fas fa-leaf"></i> Spring Boot</span>
+                <span class="tech-logo animate-on-scroll" data-delay="0.3s"><i class="fab fa-react"></i> React Native</span>
+                <span class="tech-logo animate-on-scroll" data-delay="0.4s"><i class="fab fa-angular"></i> Angular</span>
+                <span class="tech-logo animate-on-scroll" data-delay="0.5s"><i class="fab fa-react"></i> React.js</span>
+                <span class="tech-logo animate-on-scroll" data-delay="0.6s"><i class="fab fa-node-js"></i> Node.js</span>
+                <span class="tech-logo animate-on-scroll" data-delay="0.7s"><i class="fab fa-python"></i> Python</span>
+                <span class="tech-logo animate-on-scroll" data-delay="0.8s"><i class="fab fa-aws"></i> AWS</span>
+                <span class="tech-logo animate-on-scroll" data-delay="0.9s"><i class="fas fa-database"></i> PostgreSQL</span>
+                <span class="tech-logo animate-on-scroll" data-delay="1s"><i class="fas fa-database"></i> MySQL</span>
+                <span class="tech-logo animate-on-scroll" data-delay="1.1s"><i class="fas fa-database"></i> MongoDB</span>
+                <span class="tech-logo animate-on-scroll" data-delay="1.2s"><i class="fab fa-docker"></i> Docker</span>
+                <span class="tech-logo animate-on-scroll" data-delay="1.3s"><i class="fab fa-html5"></i> HTML/CSS/JS</span>
+                <span class="tech-logo animate-on-scroll" data-delay="1.4s"><i class="fab fa-git-alt"></i> Git & DevOps</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Highlights -->
+    <section class="portfolio-highlights" id="portfolio">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Portfolio Highlights</h2>
+            <div class="portfolio-grid">
+                <div class="project-card animate-on-scroll" data-delay="0.1s">
+                    <div class="project-card__thumb thumb-healthcare">
+                        <i class="fas fa-stethoscope fa-3x" style="color: white;"></i>
+                    </div>
+                    <h3>ApkeDoctorG</h3>
+                    <p>Healthcare appointment booking app for doctors and patients, featuring seamless scheduling and patient management.</p>
+                    <div class="tech-tags">
+                        <span><i class="fas fa-leaf"></i> Spring Boot</span>
+                        <span><i class="fab fa-react"></i> React Native</span>
+                        <span><i class="fas fa-database"></i> PostgreSQL</span>
+                        <span><i class="fab fa-aws"></i> AWS</span>
+                    </div>
+                    <a href="portfolio/portfolio.html#apkedoctorg" class="btn btn--explore">Explore</a>
+                </div>
+                <div class="project-card animate-on-scroll" data-delay="0.2s">
+                    <div class="project-card__thumb thumb-community">
+                        <i class="fas fa-users fa-3x" style="color: white;"></i>
+                    </div>
+                    <h3>BEU Mate App</h3>
+                    <p>Community app for BEU students and alumni with event and post management, fostering connections and updates.</p>
+                    <div class="tech-tags">
+                        <span><i class="fab fa-react"></i> React Native</span>
+                        <span><i class="fas fa-leaf"></i> Spring Boot</span>
+                        <span><i class="fas fa-database"></i> MySQL</span>
+                    </div>
+                    <a href="portfolio/portfolio.html#beumate" class="btn btn--explore">Explore</a>
+                </div>
+                <div class="project-card animate-on-scroll" data-delay="0.3s">
+                    <div class="project-card__thumb thumb-wedding">
+                        <i class="fas fa-ring fa-3x" style="color: white;"></i>
+                    </div>
+                    <h3>TheWeddingsChapter</h3>
+                    <p>Wedding management platform connecting vendors and customers, streamlining planning and bookings.</p>
+                    <div class="tech-tags">
+                        <span><i class="fab fa-angular"></i> Angular</span>
+                        <span><i class="fas fa-leaf"></i> Spring Boot</span>
+                        <span><i class="fab fa-aws"></i> AWS</span>
+                    </div>
+                    <a href="portfolio/portfolio.html#weddingschapter" class="btn btn--explore">Explore</a>
+                </div>
+                <div class="project-card animate-on-scroll" data-delay="0.4s">
+                    <div class="project-card__thumb thumb-edtech">
+                        <i class="fas fa-book-open fa-3x" style="color: white;"></i>
+                    </div>
+                    <h3>DevSkillQuest</h3>
+                    <p>EdTech platform for learning, internships, and technical assessments, empowering skill development.</p>
+                    <div class="tech-tags">
+                        <span><i class="fab fa-react"></i> React.js</span>
+                        <span><i class="fas fa-leaf"></i> Spring Boot</span>
+                        <span><i class="fas fa-database"></i> PostgreSQL</span>
+                    </div>
+                    <a href="portfolio/portfolio.html#devskillquest" class="btn btn--explore">Explore</a>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 3rem;">
+                <a href="portfolio/portfolio.html" class="btn btn--primary">View All Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Careers Preview -->
+    <section class="careers-preview" id="careers">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Join Our Team</h2>
+            <p class="careers-preview__subtitle animate-on-scroll" data-delay="0.1s">Explore exciting opportunities in IT innovation. We're always looking for talented individuals to grow with us.</p>
+            <div class="careers-grid">
+                <div class="career-card animate-on-scroll" data-delay="0.2s">
+                    <div class="career-card__icon"><i class="fas fa-code"></i></div>
+                    <h3>Java Developer Internship</h3>
+                    <p>Hands-on experience with Spring Boot and backend development. Ideal for fresh graduates.</p>
+                </div>
+                <div class="career-card animate-on-scroll" data-delay="0.3s">
+                    <div class="career-card__icon"><i class="fas fa-laptop-code"></i></div>
+                    <h3>Full-Stack Web Developer</h3>
+                    <p>Build responsive apps using React, Node.js, and modern tools. Join our dynamic team.</p>
+                </div>
+                <div class="career-card animate-on-scroll" data-delay="0.4s">
+                    <div class="career-card__icon"><i class="fas fa-cloud"></i></div>
+                    <h3>Cloud & DevOps Engineer</h3>
+                    <p>Work on AWS infrastructure and CI/CD pipelines. Perfect for cloud enthusiasts.</p>
+                </div>
+            </div>
+            <div class="careers-cta animate-on-scroll" data-delay="0.5s">
+                <a href="careers/careers.html" class="btn btn--primary">Explore Opportunities</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose -->
+    <section class="why-choose">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Why Choose AppDost</h2>
+            <div class="why-grid">
+                <div class="why-item animate-on-scroll" data-delay="0.1s">
+                    <div class="why-item__icon"><i class="fas fa-home"></i></div>
+                    <h3>End-to-End IT & Digital Solutions</h3>
+                    <p>Under one roof.</p>
+                </div>
+                <div class="why-item animate-on-scroll" data-delay="0.2s">
+                    <div class="why-item__icon"><i class="fas fa-users-cog"></i></div>
+                    <h3>Experienced Developers & Designers</h3>
+                    <p>Expert team ready to deliver.</p>
+                </div>
+                <div class="why-item animate-on-scroll" data-delay="0.3s">
+                    <div class="why-item__icon"><i class="fas fa-shield-alt"></i></div>
+                    <h3>Scalable, Secure, and Cloud-Ready</h3>
+                    <p>Architecture for growth.</p>
+                </div>
+                <div class="why-item animate-on-scroll" data-delay="0.4s">
+                    <div class="why-item__icon"><i class="fas fa-clock"></i></div>
+                    <h3>On-time Delivery</h3>
+                    <p>With transparent communication.</p>
+                </div>
+                <div class="why-item animate-on-scroll" data-delay="0.5s">
+                    <div class="why-item__icon"><i class="fas fa-dollar-sign"></i></div>
+                    <h3>Affordable Pricing</h3>
+                    <p>For startups.</p>
+                </div>
+                <div class="why-item animate-on-scroll" data-delay="0.6s">
+                    <div class="why-item__icon"><i class="fas fa-tools"></i></div>
+                    <h3>Long-Term Support</h3>
+                    <p>And maintenance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">What Our Clients Say</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial animate-on-scroll" data-delay="0.1s">
+                    <p>"AppDost transformed our idea into a scalable app. Highly recommended!"</p>
+                    <cite>- Client A</cite>
+                </div>
+                <div class="testimonial animate-on-scroll" data-delay="0.2s">
+                    <p>"Professional team with great communication and results."</p>
+                    <cite>- Client B</cite>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Banner -->
+    <section class="cta-banner">
+        <div class="container">
+            <div class="cta-banner__content animate-on-scroll">
+                <h2>Have an idea? Let's build it together.</h2>
+                <a href="contact/contact.html" class="btn btn--primary">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <div class="logo">
+                        <img src="https://res.cloudinary.com/dhled94be/image/upload/v1762145701/course_thumbnails/fc5f257dr6tzjntorhse.png" alt="AppDost Pvt. Ltd. Logo" class="logo__img">
+                        <div class="logo__text">
+                            <span class="logo__text-main">AppDost</span>
+                            <span class="logo__text-sub">Complete Solutions</span>
+                        </div>
+                    </div>
+                    <p>Your Complete IT & Digital Solutions Partner</p>
+                </div>
+                <div class="footer__section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#careers">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer__section">
+                    <h3>Contact Info</h3>
+                    <p>Email: <a href="mailto:info@appdost.com">info@appdost.com</a></p>
+                    <p>Website: <a href="https://www.appdost.com">www.appdost.com</a></p>
+                    <p>Location: India</p>
+                </div>
+                <div class="footer__section">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2025 AppDost Pvt. Ltd. | All Rights Reserved | Designed by AppDost Team</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="shared/js/script.js"></script>
+</body>
+</html>
