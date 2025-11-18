@@ -7,7 +7,7 @@
 Welcome to **AppDost Pvt. Ltd.** – a modern, responsive static website showcasing our expertise in IT services, web/mobile app development, cloud solutions, and digital marketing. Built for performance and user engagement, this site highlights our portfolio, services, and career opportunities, driving leads with seamless navigation, animations, and conversion-focused CTAs.
 
 🚀 **Live Demo**:
-- **Website**: [https://appdost-website.vercel.app](https://appdost-website.vercel.app)
+- **Website**: [https://appdost-websites.vercel.app](https://appdost-websites.vercel.app)
 
 📱 **Quick Access** (for testing/exploration):
 - **Services**: Scroll to `#services` or click nav link.
@@ -133,7 +133,7 @@ appdost-website/
 3. Env vars: None needed (static site).
 4. Deploy: Auto on Git push to `main`.
 **Live Link**:
-- Website: [https://appdost-website.vercel.app](https://appdost-website.vercel.app)
+- Website: [https://appdost-websites.vercel.app](https://appdost-websites.vercel.app)
 
 ### Alternatives
 - **Netlify**: Drag-drop `public` folder or connect Git.
@@ -166,9 +166,7 @@ MIT License – see [LICENSE](LICENSE).
 ---
 
 ## 📞 Contact
-**Vijay Shikhare** – Founder, AppDost Pvt. Ltd.
-- Email: info@appdost.com
-- Website: [www.appdost.com](https://www.appdost.com)
+**Vijay Shikhare**
 - LinkedIn: [linkedin.com/in/vijayshikhare](https://linkedin.com/in/vijayshikhare)
 - GitHub: [github.com/vijayshikhare](https://github.com/vijayshikhare)
 Issues? Open a GitHub issue or email us.
