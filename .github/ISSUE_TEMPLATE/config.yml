@@ -1,5 +1,5 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Question or Support
-    url: https://github.com/vijayshikhare/appdost-website/issues
-    about: For general questions, use discussions or issues.
+  - name: ❓ Questions or General Help
+    url: https://github.com/vijayshikhare/appdost-website/discussions
+    about: Please ask questions here instead of opening an issue.
