@@ -1,38 +1,31 @@
 ---
-name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: ''
+name: 🐛 Bug Report
+about: Report a bug or broken feature on the website
+title: "[Bug]: "
+labels: bug
 assignees: ''
-
 ---
 
 **Describe the bug**
 A clear and concise description of what the bug is.
 
-**To Reproduce**
-Steps to reproduce the behavior:
+**Steps to reproduce**
 1. Go to '...'
 2. Click on '....'
 3. Scroll down to '....'
 4. See error
 
 **Expected behavior**
-A clear and concise description of what you expected to happen.
+A clear description of what you expected to happen.
 
 **Screenshots**
-If applicable, add screenshots to help explain your problem.
+If possible, add screenshots or screen recordings.
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
-
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
+**Device & Browser**
+- Device: [e.g. Desktop, iPhone 15]
+- OS: [e.g. Windows 11, iOS 18]
+- Browser: [e.g. Chrome 130, Safari]
+- Version: [e.g. latest]
 
 **Additional context**
-Add any other context about the problem here.
+Add any other info (e.g. console errors, live site vs local).
